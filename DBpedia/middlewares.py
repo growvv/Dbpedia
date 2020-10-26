@@ -15,7 +15,7 @@ class ProxyMiddleware(object):
         spider.logger.info("request.meta%s", request.meta)
 
 
-class TutorialSpiderMiddleware:
+class DBpediaSpiderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
     # passed objects.
@@ -62,7 +62,7 @@ class TutorialSpiderMiddleware:
         spider.logger.info('Spider opened: %s' % spider.name)
 
 
-class TutorialDownloaderMiddleware:
+class DBpediaDownloaderMiddleware:
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the downloader middleware does not modify the
     # passed objects.

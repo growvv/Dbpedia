@@ -17,7 +17,7 @@ class DbpediaSpider(scrapy.Spider):
             os.remove("res_parse4.json")
 
         urls = []
-        filename = f'DBpedia_entities_in_schema.txt'
+        filename = f'./data/DBpedia_entities_in_schema.txt'
         with open(filename, 'r') as f:
             lines = f.readlines()
             for line in lines:
