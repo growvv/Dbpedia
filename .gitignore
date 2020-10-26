@@ -1,1 +1,5 @@
 .vscode
+backup/
+logs/
+data/
+__pycache__/
